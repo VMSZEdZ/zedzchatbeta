@@ -1,0 +1,120 @@
+//Thank You New jitter mod is finaly here 
+
+main {
+    if(get_val(PS4_R2)) {
+        combo_run(Turbo_1);
+        combo_run(Turbo_2);
+        combo_run(Turbo_3);
+    }
+    if(get_val(XB1_RT)) {
+        combo_run(Turbo_4);
+        combo_run(Turbo_5);
+        combo_run(Turbo_6);
+    }
+    if(get_val(XB360_RT)) {
+        combo_run(Turbo_7);
+        combo_run(Turbo_8);
+        combo_run(Turbo_9);
+    }
+    if(get_val(PS3_R2)) {
+        combo_run(Turbo_10);
+        combo_run(Turbo_11);
+        combo_run(Turbo_12);
+    }
+}
+
+combo Turbo_1 {
+    set_val(PS4_R2, 100);
+    wait(40);
+    set_val(PS4_R2, 0);
+    wait(30);
+    set_val(PS4_R2, 0);
+}
+
+combo Turbo_2 {
+    set_val(PS4_L2, 100);
+    wait(40);
+    set_val(PS4_L2, 0);
+    wait(30);
+    set_val(PS4_L2, 0);
+}
+
+combo Turbo_3 {
+    set_val(PS4_TRIANGLE, 100);
+    wait(40);
+    set_val(PS4_TRIANGLE, 0);
+    wait(30);
+    set_val(PS4_TRIANGLE, 0);
+}
+
+combo Turbo_4 {
+    set_val(XB1_LT, 100);
+    wait(40);
+    set_val(XB1_LT, 0);
+    wait(30);
+    set_val(XB1_LT, 0);
+}
+
+combo Turbo_5 {
+    set_val(XB1_RT, 100);
+    wait(40);
+    set_val(XB1_RT, 0);
+    wait(30);
+    set_val(XB1_RT, 0);
+}
+
+combo Turbo_6 {
+    set_val(XB1_Y, 100);
+    wait(40);
+    set_val(XB1_Y, 0);
+    wait(30);
+    set_val(XB1_Y, 0);
+}
+
+combo Turbo_7 {
+    set_val(XB360_RT, 100);
+    wait(40);
+    set_val(XB360_RT, 0);
+    wait(30);
+    set_val(XB360_RT, 0);
+}
+
+combo Turbo_8 {
+    set_val(XB360_LT, 100);
+    wait(40);
+    set_val(XB360_LT, 0);
+    wait(30);
+    set_val(XB360_LT, 0);
+}
+
+combo Turbo_9 {
+    set_val(XB360_Y, 100);
+    wait(40);
+    set_val(XB360_Y, 0);
+    wait(30);
+    set_val(XB360_Y, 0);
+}
+
+combo Turbo_10 {
+    set_val(PS3_R2, 100);
+    wait(40);
+    set_val(PS3_R2, 0);
+    wait(30);
+    set_val(PS3_R2, 0);
+}
+
+combo Turbo_11 {
+    set_val(PS3_L2, 100);
+    wait(40);
+    set_val(PS3_L2, 0);
+    wait(30);
+    set_val(PS3_L2, 0);
+}
+
+combo Turbo_12 {
+    set_val(PS3_TRIANGLE, 100);
+    wait(40);
+    set_val(PS3_TRIANGLE, 0);
+    wait(30);
+    set_val(PS3_TRIANGLE, 0);
+}
